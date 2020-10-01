@@ -12,7 +12,7 @@
 @property (nonatomic) UITableView *taskTable;
 @property (nonatomic) UITextField *taskField;
 @property (nonatomic) UIButton *insertButton;
-
+@property (strong, nonatomic) UIWindow * window; // App Delegate 
 @property (nonatomic) NSMutableArray *tasks;
 
 - (void)addTasks:(id)sender;

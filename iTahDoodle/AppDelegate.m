@@ -13,10 +13,14 @@
 
 @implementation AppDelegate
 
+#pragma mark - Application delegate callbacks
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Create and configure the UIWindow instance
+    // A CGRect is a struct with an origin (x,y) and a size (width,height)
+    
     return YES;
+
 }
 
 
